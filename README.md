@@ -1,7 +1,7 @@
-Role Name
+igou.nginx
 =========
 
-A brief description of the role goes here.
+This is a basic role that install nginx
 
 Requirements
 ------------
