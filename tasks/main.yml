@@ -1,0 +1,12 @@
+---
+# tasks file for igou.nginx
+
+- name: Molecule Hello World!
+  debug:
+    msg: Hello, World!
+
+- name: Install nginx
+  ansible.builtin.package:
+    name: nginx
+    state: present
+
